@@ -12,11 +12,11 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
-import com.in28minutes.spring.example1.businessservice.TodoBusinessService;
+import com.basic.spring.example1.businessservice.TodoBusinessService;
 
 @Configuration
 @ComponentScan(basePackages = {
-		"com.in28minutes.spring.example1.businessservice",
+		"com.basic.spring.example1.businessservice",
 		"com.in28minutes.spring.example1.dataservice.stub" })
 class SpringContext {
 }

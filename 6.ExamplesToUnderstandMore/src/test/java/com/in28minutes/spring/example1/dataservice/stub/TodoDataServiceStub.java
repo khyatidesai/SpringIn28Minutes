@@ -5,7 +5,7 @@ import java.util.List;
 
 import org.springframework.stereotype.Component;
 
-import com.in28minutes.spring.example1.dataservice.api.TodoDataService;
+import com.basic.spring.example1.dataservice.api.TodoDataService;
 
 @Component
 class TodoDataServiceStub implements TodoDataService {
